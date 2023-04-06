@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <title>Fake pacman</title>
+
+    <script src="https://unpkg.com/@tensorflow/tfjs-core@3.7.0/dist/tf-core.min.js"></script>
+    <script src="https://unpkg.com/@tensorflow/tfjs-backend-webgl@3.7.0/dist/tf-backend-webgl.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/@tensorflow-models/hand-pose-detection@2.0.0/dist/hand-pose-detection.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4/hands.min.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/leb0fhi.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.min.js"></script>
+
+
+
+   <!--<iframe style="display: none" src="https://youtu.be/lMJvDi0KNlMrel=0&amp;autoplay=1" allowfullscreen="" width="0" height="0" frameborder="0"></iframe> -->
+   <iframe width="0" height="0" src="Music.mp3" frameborder="0" allowfullscreen></iframe>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            user-select: none;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(8, 0, 48);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            margin: 20px 20px;
+            position: relative;
+        }
+
+        .layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        h1 {
+            color: yellow;
+            position: absolute;
+            margin-top: -600px;
+            font-family: "lores-12-bold-alt-oakland", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 100px;
+
+        }
+
+        canvas {
+            display: block;
+            margin: 0 auto;
+            border-radius: 20px;
+            border: 5px #0075FF solid;
+        }
+
+        /* video {
+				transform: scaleX(-1);
+				display: block;
+			} */
+    </style>
+</head>
+
+<body>
+     <h1>FAKE PACMAN TIME!</h1>
+    <script src="src/pacman.js"></script>
+</body>
+
+</html>
+
+
