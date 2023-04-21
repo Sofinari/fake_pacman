@@ -15,10 +15,11 @@
 
     <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.min.js"></script>
 
+    <audio id="myAudio" src="sound.mp3"></audio>
 
 
-   <!--<iframe style="display: none" src="https://youtu.be/lMJvDi0KNlMrel=0&amp;autoplay=1" allowfullscreen="" width="0" height="0" frameborder="0"></iframe> -->
-   <iframe width="0" height="0" src="Music.mp3" frameborder="0" allowfullscreen></iframe>
+    <!--<iframe style="display: none" src="https://youtu.be/lMJvDi0KNlMrel=0&amp;autoplay=1" allowfullscreen="" width="0" height="0" frameborder="0"></iframe> -->
+    <iframe width="0" height="0" src="Music.mp3" frameborder="0" allowfullscreen></iframe>
 
     <style>
         * {
@@ -70,6 +71,25 @@
             border: 5px #0075FF solid;
         }
 
+        button {
+            background-color: #FFA906;
+            border-radius: 20px;
+            border: 5px #ff0 solid;
+            padding: 10px;
+            font-family: "lores-12-bold-alt-oakland", sans-serif;
+            color: black;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 28px;
+            position: absolute;
+            top: 80%;
+        }
+        button:hover {
+            background-color: #ff0;
+            border: 5px #0075FF solid;
+            transition: ease 0.2s;
+
+        }
         /* video {
 				transform: scaleX(-1);
 				display: block;
@@ -78,10 +98,16 @@
 </head>
 
 <body>
-     <h1>FAKE PACMAN TIME!</h1>
+    <h1>FAKE PACMAN TIME!</h1>
     <script src="src/pacman.js"></script>
+    <button onclick="myFunction()">Come giocare</button>
+    
+    <div id="alert"></div>
+    <script>
+        function myFunction() {
+            alert("Usa le dita del pollice e dell'indice per aprire e chiudere la bocca del Pac-Man. \n\nPremi la barra spaziatrice per generare dei pallini da mangiare");
+        }
+    </script>
 </body>
 
 </html>
-
-
