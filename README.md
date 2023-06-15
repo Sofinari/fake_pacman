@@ -16,7 +16,7 @@ Il progetto affronta il sistema di interfaccia per la generazione di marionette 
 ## Riferimenti progettuali
 Per la progettazione della mia marionetta, ho deciso di utilizzare Pac-Man come riferimentoprogettuale perché volevo creare un personaggio altrettanto accattivante e facileda riconoscere. Per il design della marionetta ho utilizzato la classica forma arrotondata,proprio come al design originale (non pixelato). Grazie a questo riferimento progettuale,la mia marionetta si distingue per il suo stile originale e riconosciutoCuriosità: Il gioco di Pac-Man è stato creato da Toru Iwatani, un designer di videogiochigiapponese, e fu pubblicato dalla Namco in Giappone nel maggio del 1980.
 
-[<img src="doc/Riferimento.png" width="300" alt="Supplemento al dizionario italiano">]()
+[<img src="doc/Riferimento.png" width="700" alt="Supplemento al dizionario italiano">]()
 
 
 
