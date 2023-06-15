@@ -16,7 +16,7 @@ Il progetto affronta il sistema di interfaccia per la generazione di marionette 
 ## Riferimenti progettuali
 Per la progettazione della mia marionetta, ho deciso di utilizzare Pac-Man come riferimentoprogettuale perché volevo creare un personaggio altrettanto accattivante e facileda riconoscere. Per il design della marionetta ho utilizzato la classica forma arrotondata,proprio come al design originale (non pixelato). Grazie a questo riferimento progettuale,la mia marionetta si distingue per il suo stile originale e riconosciutoCuriosità: Il gioco di Pac-Man è stato creato da Toru Iwatani, un designer di videogiochigiapponese, e fu pubblicato dalla Namco in Giappone nel maggio del 1980.
 
-[<img src="doc/Riferimento.png" width="700" alt="Supplemento al dizionario italiano">]()
+[<img src="doc/Riferimento.png" width="700" alt="immagine del pacman">]()
 
 
 
@@ -24,7 +24,7 @@ Per la progettazione della mia marionetta, ho deciso di utilizzare Pac-Man come 
 ## Design dell’interfraccia e modalià di interazione
 Ho progettato l’interfaccia e la modalità di interazione per la marionetta, il codice cattura le punte delle dita del pollice e dell’indice per controllare l’apertura e la chiusura della bocca del personaggio, rendendo l’esperienza di interazione con la marionetta intuitiva e naturale per l’utente. Per aumentare il coinvolgimento dell’utente, ho incluso una funzione di generazione di puntini premendo la barra spaziatrice, che possono essere mangiati dalla marionetta. L’interfaccia è stata progettata in modo chiaro e facile da comprendere, con l’aggiunta di un pulsante per guidare l’utente durante l’utilizzo della marionetta su come funziona.
 
-[<img src="doc/cards.gif" width="500" alt="Magic trick">]()
+[<img src="doc/Riferimento2.png" width="700" alt="immagine del pacman">]()
 
 
 ## Tecnologia usata
