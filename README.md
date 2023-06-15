@@ -16,8 +16,9 @@ Il progetto affronta il sistema di interfaccia per la generazione di marionette 
 ## Riferimenti progettuali
 Per la progettazione della mia marionetta, ho deciso di utilizzare Pac-Man come riferimentoprogettuale perché volevo creare un personaggio altrettanto accattivante e facileda riconoscere. Per il design della marionetta ho utilizzato la classica forma arrotondata,proprio come al design originale (non pixelato). Grazie a questo riferimento progettuale,la mia marionetta si distingue per il suo stile originale e riconosciutoCuriosità: Il gioco di Pac-Man è stato creato da Toru Iwatani, un designer di videogiochigiapponese, e fu pubblicato dalla Namco in Giappone nel maggio del 1980.
 
+[<img src="doc/Riferimento.png" width="300" alt="Supplemento al dizionario italiano">]()
 
-https://user-images.githubusercontent.com/6561331/236182302-68a6bd12-7b83-4d19-b83e-c9b7db795881.mp4
+
 
 
 ## Design dell’interfraccia e modalià di interazione
@@ -113,8 +114,8 @@ Funzione per disegnare il canvas più tutte le altre sottostrutture
 
 ## Target e contesto d’uso
 Il target principale è costituito per gli amanti dei videogiochi, indipendentemente dall’età. Il contesto d’uso ideale per la marionetta potrebbe essere per essere utilizzata in contesti di intrattenimento interattivo, come ad esempio fiere del gioco o eventi simili. Grazie alla sua interfaccia intuitiva e alla modalità di interazione semplice ma coinvolgente, la marionetta può catturare l’attenzione del pubblico e intrattenerlo.
-[<img src="doc/munari.jpg" width="300" alt="Supplemento al dizionario italiano">]()
 
+https://user-images.githubusercontent.com/6561331/236182302-68a6bd12-7b83-4d19-b83e-c9b7db795881.mp4
 
 ## Link al progetto su GitHub
 <a href ="https://sofinari.github.io/fake_pacman/">https://sofinari.github.io/fake_pacman/</a>
